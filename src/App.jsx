@@ -381,7 +381,7 @@ const App = () => {
   useEffect(() => {
     if (theme === 'dark') {
       document.documentElement.classList.add('dark');
-      localStorage.setItem('theme', 'dark');
+      localStorage.setItem('theme', 'light');
     } else {
       document.documentElement.classList.remove('dark');
       localStorage.setItem('theme', 'light');
